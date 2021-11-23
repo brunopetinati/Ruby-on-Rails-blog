@@ -60,7 +60,12 @@ class ArticlesController < ApplicationController
         # articles.errors.full_messages.each do |msg|
         # puts msg
         # end
-
+    end
+    
+    def destroy 
+        @article = Articles.find(params[:id])
+        @article.destroy
+        redirect_to '/articles'
     end
     
 end
