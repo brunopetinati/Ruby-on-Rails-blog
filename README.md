@@ -1,5 +1,5 @@
 
-# Ruby on Rails
+# Ruby on Rails Blog
 
 The purpose of this repository is only for studies on Ruby on Rails.
 
