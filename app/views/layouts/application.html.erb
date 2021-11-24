@@ -7,12 +7,11 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <% # como esse está sendo pego pelo app inteiro, é necessário identificar a pasta no body, layouts nesse caso. O que não acontece quando o arquivo está mna mesma pasta em outros lugares, como o _form de articles %>
   </head>
 
   <body>
-    <% flash.each do |name, msg|%>
-      <%= msg%>
-    <% end %>
+  <%= render 'layouts/messages' %>
     <%= yield %>
   </body>
 </html>
