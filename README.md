@@ -14,14 +14,14 @@ If you already have the environment necessary for Ruby on Rails to work, skip th
 
 Probably optional, but if necessary
 
-gem install solargraph
-gem install htmlbeautifier
+* gem install solargraph
+* gem install htmlbeautifier
 
 Then
 
-rails db:migrate
+* rails db:migrate
 
-rails s -p <port_number>
+* rails s -p <port_number>
 "example: rails server -p 3001"
 
 ### README - original from rails, not explored
