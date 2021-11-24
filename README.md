@@ -7,10 +7,10 @@ The purpose of this repository is only for studies on Ruby on Rails.
 
 If you already have the environment necessary for Ruby on Rails to work, skip these steps of primary installation.
 
-sudo apt install ruby-bundler
-sudo apt install ruby-dev
-sudo apt-get install -y sqlite3 libsqlite3-dev
-sudo bundle install
+* sudo apt install ruby-bundler
+* sudo apt install ruby-dev
+* sudo apt-get install -y sqlite3 libsqlite3-dev
+* sudo bundle install
 
 Probably optional, but if necessary
 
