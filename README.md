@@ -17,7 +17,7 @@ Probably optional, but if necessary
 * gem install solargraph
 * gem install htmlbeautifier
 
-Then
+Then:
 
 * rails db:migrate
 
